@@ -8,7 +8,7 @@ resource "helm_release" "rancher" {
   create_namespace = true
 
   values = [<<EOF
-hostname: rancher.kyndryl.com
+hostname: rancher.local.com
 # Admin credentials
 bootstrapPassword: "q1w2e3r4100@"   # Initial admin password
 replicas: 1
