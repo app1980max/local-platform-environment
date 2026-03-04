@@ -1,4 +1,4 @@
-<img width="1200" height="627" alt="image" src="https://github.com/user-attachments/assets/cbc03c6d-535f-4d9d-8916-0aeb197cf3be" />
+<img width="1047" height="588" alt="image" src="https://github.com/user-attachments/assets/badb14b0-11f4-459a-9e2f-1bccfc9d1bff" />
 
 
 ## Local Environment | Development 
