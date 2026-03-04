@@ -37,3 +37,4 @@ resource "null_resource" "wait_for_metallb" {
 
   depends_on = [helm_release.metallb, local_file.metallb_config]
 }
+
