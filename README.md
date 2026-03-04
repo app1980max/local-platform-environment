@@ -1,8 +1,7 @@
-<img width="1047" height="644" alt="image" src="https://github.com/user-attachments/assets/9dfddea2-688e-44d9-8226-0990fdec3fad" />
-
+<img width="1047" height="644" alt="image" src="https://github.com/user-attachments/assets/73525b81-a905-43c3-9c8b-25401543c9c1" />
 
 ## Local Environment | Development 
-KIND is primarily designed for local environments — it runs an entire Kubernetes cluster inside Docker containers, meaning each node (control plane or worker) is just a container. Its provides a flexible way to create multi-node Kubernetes clusters for development and testing purposes, especially useful for scenarios where you need to simulate a more complex, distributed environment.
+vCluster is an open source solution that enables teams to run virtual Kubernetes clusters inside existing infrastructure. It helps platform engineers create secure, isolated environments for development, testing, CI/CD, and even production workloads, without the cost or overhead of managing separate physical clusters.
 
 
 
