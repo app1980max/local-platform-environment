@@ -29,6 +29,12 @@ controller:
   # Optional: Use a node selector to *force* it onto the master node if others are available
   nodeSelector:
     node-role.kubernetes.io/control-plane: ""
+  #nodeSelector:
+  #  ingress-ready: "true"
+  #tolerations:
+  #  - key: "node-role.kubernetes.io/master"
+  #    operator: "Equal"
+  #    effect: "NoSchedule"
   publishService:
     enabled: false
   extraArgs:
@@ -55,5 +61,3 @@ resource "null_resource" "wait_for_ingress_nginx" {
 
   depends_on = [helm_release.ingress_nginx]
 }
-
-
