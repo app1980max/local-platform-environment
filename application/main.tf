@@ -9,7 +9,7 @@ terraform {
 }
 
 provider "argocd" {
-  server_addr = "https://argocd-server.argocd.svc.cluster.local:443"
+  server_addr = "https://argo-dev.appflex.io"
   username    = "admin"
   password    = "admin"
   insecure    = true
