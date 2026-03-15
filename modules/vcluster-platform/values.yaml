@@ -1,7 +1,38 @@
+
+# -------------------------
+#    DEFAULT TEMPLATE
+# -------------------------
+
 admin:
   username: admin
   password: admin
 config:
   audit:
-    enabled: true
-  loftHost: vcluster.appflex.io
+    enabled: false
+  loftHost: vcluster-dev.appflex.io
+ingress:
+  enabled: true
+  host: vcluster-dev.appflex.io
+
+features:
+  virtualClusters: true
+  projects: true
+  templates: true
+
+projects:
+  createDefault: true
+  
+virtualCluster:
+  enabled: true
+
+  defaults:
+    sync:
+      nodes:
+        enabled: true
+      services:
+        enabled: true
+      ingresses:
+        enabled: true
+
+
+        
