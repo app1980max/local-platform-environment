@@ -1,4 +1,4 @@
-<img width="1120" height="646" alt="image" src="https://github.com/user-attachments/assets/1f2ca003-9c95-4a29-bcc2-d59abfee03d5" />
+<img width="1048" height="605" alt="Screenshot 2026-03-15 at 21-19-23 app1980max_local-host-platform" src="https://github.com/user-attachments/assets/3b410797-4a33-43fc-8607-eca5f3c3bfa8" />
 
 
 ## Local Environment | Development 
